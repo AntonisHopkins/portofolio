@@ -38,8 +38,8 @@ $(document).ready(function(){
 			+"<h1>Hello Again!</h1><p>Hello again,those are some of my projects!<br/>"
 			+"<u><b>Medical_Office technologies</b></u>: PHP, JAVASCRIPT/JQUERY, AJAX, MYSQL, HTML,CSS.<br/>"
 			+"<u><b>Binary Search Tree technologies</b></u>: JAVASCRIPT/JQUERY, HTML,CSS.<br/>"
-			+"<u><b>Cookbook technologies</b></u>:In this project I did everything but css and html style. I used PHP, MYSQL and some JAVASCRIPT/JQUERY.<br/>"
-			+"<u><b>... This portofolio</b></u>:For this site I did everything, CSS , HTML, and I experiment with JQUERY.</p>";
+			+"<u><b>Cookbook technologies</b></u>:In this project I did everything but css and html. I used PHP, MYSQL and some JAVASCRIPT/JQUERY.<br/>"
+			+"<u><b>... This portofolio</b></u>:For this site I used, CSS , HTML, JAVASCRIPT/JQUERY.</p>";
 	//functions
 	function work_clicked(event){
 		console.log($home_center.is(':visible'));
