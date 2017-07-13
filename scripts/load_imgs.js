@@ -35,14 +35,17 @@ $(document).ready(function(){
 			+"	</ul>"
 			+"</div>"
 	var center_data= "<img src='./imgs/me.jpg' alt='img' title='Me' id='me'/> "
-			+"<h1>Hello Again!</h1><p>Hello again,those are some of my projects!<br/>"
-			+"<u><b>Medical_Office technologies</b></u>: PHP, JAVASCRIPT/JQUERY, AJAX, MYSQL, HTML,CSS.<br/>"
+			+"<h1>Hello Again!</h1><p>Hello again,those are some of my projects(not all)!<br/>"
+			+"<u><b>Medical Office technologies</b></u>: PHP, JAVASCRIPT/JQUERY, AJAX, MYSQL, HTML,CSS.<br/>"
+			+"<b>Summary</b>:As an admin.You can add/remove patients.Add/update/delete appointments.Check schedule of specific day.Add prescription to a patient.<br/>"
 			+"<u><b>Binary Search Tree technologies</b></u>: JAVASCRIPT/JQUERY, HTML,CSS.<br/>"
+			+ "<b>Summary</b>:You can see a visualization of binary tree insertion,deletion and search.Change the distance between outter and inner nodes seperately."
+			+"Print the steps of each node in deletion/search/insertion.<br/>"
 			+"<u><b>Cookbook technologies</b></u>:In this project I did everything but css and html. I used PHP, MYSQL and some JAVASCRIPT/JQUERY.<br/>"
+			+"<b>Summary</b>:This is my first website project.You can insert/delete ingredients and recipes.Sign in/Login.<br/>"
 			+"<u><b>... This portofolio</b></u>:For this site I used, CSS , HTML, JAVASCRIPT/JQUERY.</p>";
 	//functions
 	function work_clicked(event){
-		console.log($home_center.is(':visible'));
 		if($home_center.is(':visible')){
 			$home_center.toggle(400);
 			timeOut(600,function(){$center.append(center_data).toggle().fadeIn(400)});
