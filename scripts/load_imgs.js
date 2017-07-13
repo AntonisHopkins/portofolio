@@ -43,7 +43,7 @@ $(document).ready(function(){
 			+"Print the steps of each node in deletion/search/insertion.<br/>"
 			+"<u><b>Cookbook technologies</b></u>:In this project I did everything but css and html. I used PHP, MYSQL and some JAVASCRIPT/JQUERY.<br/>"
 			+"<b>Summary</b>:This is my first website project.You can insert/delete ingredients and recipes.Sign in/Login.<br/>"
-			+"<u><b>... This portofolio</b></u>:For this site I used, CSS , HTML, JAVASCRIPT/JQUERY.</p>";
+			+"<u><b>... This portfolio</b></u>:For this site I used, CSS , HTML, JAVASCRIPT/JQUERY.</p>";
 	//functions
 	function work_clicked(event){
 		if($home_center.is(':visible')){
