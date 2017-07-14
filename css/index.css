@@ -77,7 +77,7 @@ ul.list{
 	width:100%;
 	overflow:hidden;
 }
-.slider .slides, .slider .slides2,.slider .slides3{
+.slider .slides, .slider .slides2,.slider .slides3,.slider .slides4{
 	display:block;
 	width:5000px;
 	height:200px;
