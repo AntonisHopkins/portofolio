@@ -9,8 +9,14 @@ $(document).ready(function(){
 	$home = $list.find('#home');
 	$work = $list.find('#work');
 	//variables
-	var leftbar_data="<h3>Medical Office: <a href='https://github.com/AntonisHopkins/Medical_Office' target='_blank'>GITHUB</a></h3>"
+	var leftbar_data="<h3>Math Quiz: <a href='https://github.com/AntonisHopkins/quiz' target='_blank'>GITHUB</a></h3>"
 			+"<div class='slider'>"
+			+"	<ul class='slides4'>"
+			+"		<li><img src='./imgs/math quiz/questions.gif' title='questions' class='slide' /></li>"
+			+"		<li><img src='./imgs/math quiz/score.gif' title='score' class='slide' /></li>"
+			+"		<li><img src='./imgs/math quiz/pdf.gif' title='pdf' class='slide' /></li>"
+			+"	</ul>"
+			+"	<h3>Medical Office: <a href='https://github.com/AntonisHopkins/Medical_Office' target='_blank'>GITHUB</a></h3>"
 			+"	<ul class='slides'>"
 			+"		<li><img src='./imgs/medical_office/index.jpg' title='Index' class='slide' /></li>"
 			+"		<li><img src='./imgs/medical_office/adminpage.jpg' title='adminpage' class='slide' /></li>"
@@ -36,6 +42,9 @@ $(document).ready(function(){
 			+"</div>"
 	var center_data= "<img src='./imgs/me.jpg' alt='img' title='Me' id='me'/> "
 			+"<h1>Hello Again!</h1><p>Hello again,those are some of my projects(not all)!<br/>"
+			+"<u><b>Math Quiz technologies</b></u>: PHP, JAVASCRIPT/JQUERY, AJAX, MYSQL, HTML,CSS.<br/>"
+			+"<b>Summary</b>:This is dynamic mathematical quiz website. It uses MathML to create equations. In Opera,Chrome,IE, I use MathJax, a javascript library to render the equations.<br/>"
+			+"Firefox supports MathML and it can render it.To add categories or subjects or questions, I just update the database and it's ready to go.<br/>"
 			+"<u><b>Medical Office technologies</b></u>: PHP, JAVASCRIPT/JQUERY, AJAX, MYSQL, HTML,CSS.<br/>"
 			+"<b>Summary</b>:As an admin.You can add/remove patients.Add/update/delete appointments.Check schedule of specific day.Add prescription to a patient.<br/>"
 			+"<u><b>Binary Search Tree technologies</b></u>: JAVASCRIPT/JQUERY, HTML,CSS.<br/>"
@@ -52,7 +61,9 @@ $(document).ready(function(){
 			timeOut(900,function(){$leftbar.append(leftbar_data).toggle().fadeIn(400);
 				$.getScript("./scripts/slider.js");
 				$.getScript("./scripts/slider2.js");
-				$.getScript("./scripts/slider3.js")});
+				$.getScript("./scripts/slider3.js");
+				$.getScript("./scripts/slider4.js");
+			});
 		}
 	}
 	function home_clicked(){
